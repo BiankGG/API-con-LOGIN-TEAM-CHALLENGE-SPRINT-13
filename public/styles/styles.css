@@ -1,0 +1,211 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/images/rickmorty.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.login-container {
+    background: linear-gradient(135deg, #76ce60, #025002); 
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    width: 450px; 
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form label {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.login-form button {
+    background-color: #a1e98b;
+    color: rgb(28, 41, 27);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.logout-form {
+    margin-top: 20px;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.search-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%;
+    text-align: center;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.search-form input[type="text"] {
+    width: 100%; 
+    max-width: 300px;
+    padding: 8px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.search-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.character-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.card {
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px; 
+}
+
+.card h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.card .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card .back-button:hover {
+    background-color: #0056b3;
+}
